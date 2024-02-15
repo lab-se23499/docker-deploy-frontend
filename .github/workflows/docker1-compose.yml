@@ -33,7 +33,7 @@ jobs:
           tags: thanaphat14/234-deploylab-frontend:latest
       -
         name: copy file via ssh password
-        uses: appleboy/scp-sction@v0.1.4
+        uses: appleboy/scp-action@v0.1.4
         with:
           host: ${{ secrets.HOST_SERVER }}
           username: ${{ secrets.HOST_USER_NAME }}
